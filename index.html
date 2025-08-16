@@ -2,58 +2,39 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Barend Nieuwoudt</title>
-
-  <!--
-    - favicon
-  -->
+  
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
 
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Barend Nieuwoudt" width="80">
-        </figure>
+        <img src="./assets/images/avatars/barend-avatar.png" alt="Barend Nieuwoudt" width="140">
 
         <div class="info-content">
           <h1 class="name" title="Barend Nieuwoudt">Barend Nieuwoudt</h1>
-
           <p class="title">Software Engineer & Consultant</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
+          <span>Show Info</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
 
@@ -64,19 +45,6 @@
         <div class="separator"></div>
 
         <ul class="contacts-list">
-
-          <!-- <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:bennien206@gmail.com" class="contact-link">bennien206@gmail.com</a>
-            </div>
-
-          </li> -->
 
           <li class="contact-item">
 
@@ -99,7 +67,6 @@
 
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Brackenfell, Cape Town, South Africa</address>
             </div>
 
@@ -135,15 +102,10 @@
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-
         </ul>
 
       </nav>
 
-      <!-- #ABOUT -->
       <article class="about  active" data-page="about">
 
         <header>
@@ -152,25 +114,29 @@
 
         <section class="about-text">
           <p>
-            Hi, I'm Barend Nieuwoudt—or Bennie, if you prefer. I'm a Software Engineer and Consultant with a strong background in Java, Spring Boot, Python, and SQL, and a knack for building practical, impactful solutions across industries.
+            Hi, I'm Barend Nieuwoudt—or Bennie, if you prefer. I'm a Software Engineer and Consultant with a strong
+            background in Java, Spring Boot, Python, and SQL, and a knack for building practical, impactful solutions
+            across industries.
           </p>
 
           <p>
-            I've worked on complex systems at companies like Entelect, Sanlam, FNB, and ACI Worldwide, where I've contributed to everything from scalable backend architectures to enterprise integrations and workflow automation solutions. My approach combines discipline, curiosity, and a genuine passion for continuous improvement. These qualities have earned me recognition from both teammates and leadership.
-          </p>
-            
-          <p>
-            Beyond the code, I'm a competitive national dodgeball player, a tech mentor, and someone who loves diving into side projects, from 3D modeling and hobby electronics to writing and running.
+            I've worked on complex systems at companies like Entelect, Sanlam, FNB, and ACI Worldwide, where I've
+            contributed to everything from scalable backend architectures to enterprise integrations and workflow
+            automation solutions. My approach combines discipline, curiosity, and a genuine passion for continuous
+            improvement. These qualities have earned me recognition from both teammates and leadership.
           </p>
 
           <p>
-            Whether it's backend systems, cross-functional teamwork, or launching side projects like TourneyIQ, I'm always looking for ways to create value and grow my skill set.
+            Beyond the code, I'm a competitive national dodgeball player, a tech mentor, and someone who loves diving
+            into side projects, from 3D modeling and hobby electronics to writing and running.
+          </p>
+
+          <p>
+            Whether it's backend systems, cross-functional teamwork, or launching side projects like TourneyIQ, I'm
+            always looking for ways to create value and grow my skill set.
           </p>
         </section>
 
-        <!--
-          - service
-        -->
         <section class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
@@ -179,7 +145,7 @@
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icons/computer-icon.png" alt="Web development icon" width="40">
               </div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Java SpringBoot Development</h4>
@@ -191,19 +157,19 @@
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icons/computer-icon.png" alt="Web development icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python FastAPI Development</h4>
+                <h4 class="h4 service-item-title">Python Development</h4>
                 <p class="service-item-text">
-                  Building modern, high-performance Python APIs.
+                  Building modern, high-performance Python applications.
                 </p>
               </div>
             </li>
 
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icons/computer-icon.png" alt="Web development icon" width="40">
               </div>
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Flutter Web-App Development</h4>
@@ -217,8 +183,6 @@
 
         </section>
 
-
-        <!-- testimonials -->
         <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
@@ -229,34 +193,17 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Manager at ACI" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Manager @ ACI Worldwide</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    “Barend's great can-do attitude and technical ability make him a very solid and dependable member of the team. 
-                    Adding a passion for innovation to his strengths further highlights his contribution.”
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Team Lead at Sanlam" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatars/landi-avatar.png" alt="Team Lead at Sanlam" width="60"
+                    data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Team Lead @ Sanlam</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    “With your reputation in the team for always bringing a sunny attitude that positively impacts those 
-                    around you, you are also always willing to assist a team member, even if it is outside the scope of your work or your responsibilities.”
+                    “With your reputation in the team for always bringing a sunny attitude that positively impacts those
+                    around you, you are also always willing to assist a team member, even if it is outside the scope of
+                    your work or your responsibilities.”
                   </p>
                 </div>
 
@@ -267,15 +214,37 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Analyst at Sanlam" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatars/brendan-avatar.png" alt="Brendan" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Manager @ ACI Worldwide</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “Barend's great can-do attitude and technical ability make him a very solid and dependable member of
+                    the team. Adding a passion for innovation to his strengths further highlights his contribution.”
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatars/jason-avatar.png" alt="Team Lead at Sanlam" width="60"
+                    data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Analyst @ Sanlam</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    “Bennie, your quick learning, dedication, and ability to build strong relationships are invaluable assets to our team. 
-                    Your commitment to quality work, even in tasks outside your primary role, demonstrates your versatility and passion for making meaningful contributions.”
+                    “Bennie, your quick learning, dedication, and ability to build strong relationships are invaluable
+                    assets to our team. Your commitment to quality work, even in tasks outside your primary role, demonstrates 
+                    your versatility and passion for making meaningful contributions.”
                   </p>
                 </div>
 
@@ -286,8 +255,6 @@
 
         </section>
 
-
-        <!-- testimonials modal -->
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -300,10 +267,8 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Manager @ ACI Worldwide" width="80" data-modal-img>
+                <img src="./assets/images/avatars/avatars/barend-avatar.png" alt="barend" width="80" data-modal-img>
               </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
             <div class="modal-content">
@@ -314,8 +279,8 @@
 
               <div data-modal-text>
                 <p>
-                  “Barend's great can-do attitude and technical ability make him a very solid and dependable member of the team. 
-                  Adding a passion for innovation to his strengths further highlights his contribution.”
+                  “Barend's great can-do attitude and technical ability make him a very solid and dependable member of
+                  the team. Adding a passion for innovation to his strengths further highlights his contribution.”
                 </p>
               </div>
 
@@ -325,8 +290,6 @@
 
         </div>
 
-
-        <!-- clients -->
         <section class="clients">
 
           <h3 class="h3 clients-title">Collaborators</h3>
@@ -334,32 +297,32 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="https://www.sanlam.co.za/" target="_blank">
-                <img src="./assets/images/sanlam-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.aciworldwide.com/" target="_blank">
-                <img src="./assets/images/aci-worldwide-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
               <a href="https://dodgeballsa.co.za/" target="_blank">
-                <img src="./assets/images/dodgeball-sa-logo.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.fnb.co.za/" target="_blank">
-                <img src="./assets/images/fnb-logo.png" alt="client logo">
+                <img src="./assets/images/collaborators/dodgeball-sa-logo.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="https://entelect.co.za/" target="_blank">
-                <img src="./assets/images/entelect-logo.png" alt="client logo">
+                <img src="./assets/images/collaborators/entelect-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.fnb.co.za/" target="_blank">
+                <img src="./assets/images/collaborators/fnb-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.sanlam.co.za/" target="_blank">
+                <img src="./assets/images/collaborators/sanlam-logo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.aciworldwide.com/" target="_blank">
+                <img src="./assets/images/collaborators/aci-worldwide-logo.png" alt="client logo">
               </a>
             </li>
 
@@ -369,7 +332,6 @@
 
       </article>
 
-      <!-- #RESUME -->
       <article class="resume" data-page="resume">
 
         <header>
@@ -380,7 +342,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="save-outline"></ion-icon>
             </div>
             <h3 class="h3">Experience</h3>
           </div>
@@ -407,7 +369,8 @@
               <h4 class="h4 timeline-item-title">Software Engineer - ACI Worldwide</h4>
               <span>April 2019 - May 2023 (4 Years, 2 Months)</span>
               <p class="timeline-text">
-                Java, Python, SQL, Delphi, SpringBoot, Gradle, Locust, Perforce, Git, BitBucket, Eclipse, Swagger, OpenApi, Jenkins, Jira, Kafka
+                Java, Python, SQL, Delphi, SpringBoot, Gradle, Locust, Perforce, Git, BitBucket, Eclipse, Swagger,
+                OpenApi, Jenkins, Jira, Kafka
               </p>
             </li>
 
@@ -427,7 +390,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="save-outline"></ion-icon>
             </div>
             <h3 class="h3">Education</h3>
           </div>
@@ -435,22 +398,41 @@
           <ol class="timeline-list">
 
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title"><b>Bachelor of Science in Computing</b> - University of South Africa</h4>
+              <h4 class="h4 timeline-item-title">Bachelor of Science in Computing - University of South Africa</h4>
               <span>January 2016 - December 2019 (4 Years)</span>
               <p class="timeline-text">
-                Final year subjects: Theoretical Computer Science, Operating Systems & Architecture, Databases, Advanced Systems Development, Database Design & Implementation (SQL), Software Project Management, Computer Graphics (JavaScript), Techniques of Artificial Intelligence, Formal Logic 3, Advanced Programming (C++).
+                Final year subjects: Theoretical Computer Science, Operating Systems & Architecture, Databases, Advanced
+                Systems Development, Database Design & Implementation (SQL), Software Project Management, Computer Graphics 
+                (JavaScript), Techniques in Artificial Intelligence, Formal Logic 3, Advanced Programming (C++).
               </p>
             </li>
 
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title"><b>National Senior Certificate</b> - Paarl Gimnasium High School</h4>
+              <h4 class="h4 timeline-item-title">National Senior Certificate - Paarl Gimnasium High School</h4>
               <span>January 2010 - December 2014 (5 Years)</span>
               <p class="timeline-text">
-                Final year subjects: Mathematics, English Home Language, Afrikaans Huistaal, Life Orientation, Geography, Engineering Graphics and Design, Information Technology, Physical Sciences.
+                Final year subjects: Mathematics, English Home Language, Afrikaans Huistaal, Life Orientation,
+                Geography, Engineering Graphics and Design, Information Technology, Physical Sciences.
               </p>
             </li>
 
           </ol>
+
+        </section>
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://pythoninstitute.org/pcep" target="_blank">
+                <img src="./assets/images/certifications/pcep-logo.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
 
         </section>
 
@@ -471,7 +453,7 @@
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">SpringBoot</h5>
-                <data value="82">5+ Years</data>
+                <data value="100">5+ Years</data>
               </div>
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
@@ -481,21 +463,29 @@
             <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Python</h5>
-                <data value="82">5+ Years</data>
+                <data value="100">5+ Years</data>
               </div>
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
               </div>
             </li>
 
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft SQL Server</h5>
+                <data value="100">4+ Years</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+            </li>
+
           </ul>
+
         </section>
 
       </article>
 
-      <!--
-        - #PORTFOLIO
-      -->
       <article class="portfolio" data-page="portfolio">
 
         <header>
@@ -565,9 +555,6 @@
 
       </article>
 
-      <!--
-        - #BLOG
-      -->
       <article class="blog" data-page="blog">
 
         <header>
@@ -579,9 +566,12 @@
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
-              <a href="https://medium.com/@barendnieuwoudt/junit-4-vs-junit-5-differences-boilerplate-code-b6333f6cf58e" target="_blank">
+              <a href="https://medium.com/@barendnieuwoudt/junit-4-vs-junit-5-differences-boilerplate-code-b6333f6cf58e"
+                target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1649451844934-d33042e93092?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Design conferences in 2022" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1649451844934-d33042e93092?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Design conferences in 2022" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
@@ -600,7 +590,9 @@
             <li class="blog-post-item">
               <a href="https://medium.com/@barendnieuwoudt/favorite-retrospective-ideas-56a41a0b9dcd" target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1646066490000-f03bc62d2a02?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Best fonts every designer" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1646066490000-f03bc62d2a02?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Best fonts every designer" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
@@ -617,9 +609,12 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="https://medium.com/@barendnieuwoudt/guide-to-resilience-in-java-spring-boot-applications-4b2198951846" target="_blank">
+              <a href="https://medium.com/@barendnieuwoudt/guide-to-resilience-in-java-spring-boot-applications-4b2198951846"
+                target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Guide to Resilience in Java Spring Boot Applications" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Guide to Resilience in Java Spring Boot Applications" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
@@ -636,9 +631,12 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="https://medium.com/@barendnieuwoudt/creating-a-text-adventure-in-python-958ba119a859" target="_blank">
+              <a href="https://medium.com/@barendnieuwoudt/creating-a-text-adventure-in-python-958ba119a859"
+                target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1529981188441-8a2e6fe30103?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Creating a Text Adventure in Python" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1529981188441-8a2e6fe30103?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Creating a Text Adventure in Python" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
@@ -655,19 +653,24 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="https://medium.com/@barendnieuwoudt/java-spring-boot-exposing-metrics-using-gradle-prometheus-grafana-3c5609dac96c" target="_blank">
+              <a href="https://medium.com/@barendnieuwoudt/java-spring-boot-exposing-metrics-using-gradle-prometheus-grafana-3c5609dac96c"
+                target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Java & Spring Boot: Exposing Metrics using Gradle, Prometheus & Grafana" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Java & Spring Boot: Exposing Metrics using Gradle, Prometheus & Grafana" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
-                    <p class="blog-category">Software Engineer</p>
+                    <p class="blog-category">Software Engineering</p>
                     <span class="dot"></span>
                     <time datetime="2022-02-23">Mar 25, 2024</time>
                   </div>
-                  <h3 class="h3 blog-item-title">Java & Spring Boot: Exposing Metrics using Gradle, Prometheus & Grafana</h3>
+                  <h3 class="h3 blog-item-title">Java & Spring Boot: Exposing Metrics using Gradle, Prometheus & Grafana
+                  </h3>
                   <p class="blog-text">
-                    This is a quick tutorial to show you how to export metrics from your Spring Boot application to Grafana via Prometheus.
+                    This is a quick tutorial to show you how to export metrics from your Spring Boot application to
+                    Grafana via Prometheus.
                   </p>
                 </div>
               </a>
@@ -676,17 +679,20 @@
             <li class="blog-post-item">
               <a href="https://medium.com/@barendnieuwoudt/webfluxtest-vs-springboottest-e62753910039" target="_blank">
                 <figure class="blog-banner-box">
-                  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="@WebFluxTest vs @SpringBootTest" loading="lazy">
+                  <img
+                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="@WebFluxTest vs @SpringBootTest" loading="lazy">
                 </figure>
                 <div class="blog-content">
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">Software Engineering</p>
                     <span class="dot"></span>
                     <time datetime="2022-02-23">Feb 20, 2024</time>
                   </div>
                   <h3 class="h3 blog-item-title">@WebFluxTest vs @SpringBootTest</h3>
                   <p class="blog-text">
-                    Spring Boot provides both @SpringBootTest and @WebFluxTest for creating testcases and the use of each will be better suited to different scenarios.
+                    Spring Boot provides both @SpringBootTest and @WebFluxTest for creating testcases and the use of
+                    each will be better suited to different scenarios.
                   </p>
                 </div>
               </a>
@@ -698,9 +704,6 @@
 
       </article>
 
-      <!--
-        - #CONTACT
-      -->
       <article class="contact" data-page="contact">
 
         <header>
@@ -710,7 +713,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.775676832844!2d18.69313611577149!3d-33.88981478064317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5862e29c6a6b%3A0x8b3a7583f13db38!2sVredekloof%2C%20Cape%20Town%2C%207560%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1722349471385!5m2!1sen!2sza" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.775676832844!2d18.69313611577149!3d-33.88981478064317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5862e29c6a6b%3A0x8b3a7583f13db38!2sVredekloof%2C%20Cape%20Town%2C%207560%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1722349471385!5m2!1sen!2sza"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -744,14 +747,7 @@
 
   </main>
 
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
